@@ -1,0 +1,22 @@
+@mixin title() {
+  font-family: $montserrat;
+  font-weight: $montserrat-bold;
+  font-size: $font-title;
+}
+
+@mixin subtitle() {
+  font-family: $montserrat;
+  font-weight: $montserrat-regular;
+  color: rgba(0,0,0,0.5);
+  font-size: $font-subtitle;
+}
+
+@mixin articleTitle() {
+  font-family: $montserrat;
+  font-weight: $montserrat-bold;
+  font-size: $font-subtitle;
+}
+
+@mixin regularText() {
+  font-size: $font-default;
+}

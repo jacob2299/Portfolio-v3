@@ -1,0 +1,47 @@
+header {
+  .container {
+    margin: 1rem 3rem;
+    display: grid;
+    grid-template-columns: 65% 35%;
+
+    .brand {
+      h1 {
+        @include title()
+      }
+      h2 {
+        @include subtitle()
+      }
+    }
+
+    nav {
+      ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        
+        li {
+          float: left;
+
+          a {
+            text-decoration: none;
+            color: $black;
+          }
+        }
+
+        &:after {
+          display: block;
+          content: '';
+          clear: both;
+        }
+
+        img {
+          width: 2rem;
+          height: auto;
+        }
+      }
+    }
+  }
+}

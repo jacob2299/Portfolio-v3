@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+@import '~normalize.css/normalize.css';
+@import './modules/_variables.scss';
+@import './modules/_mixins.scss';
+@import './modules/_base.scss';
+
+@import './partials/_header.scss';
+@import './partials/about.scss';
+@import './partials/_projects.scss';
