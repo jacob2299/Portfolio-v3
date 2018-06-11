@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
-@import '~normalize.css/normalize.css';
+@import './vendor/normalize.scss';
 @import './modules/_variables.scss';
 @import './modules/_mixins.scss';
 @import './modules/_base.scss';
