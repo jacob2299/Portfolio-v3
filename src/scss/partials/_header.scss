@@ -24,10 +24,27 @@ header {
         
         li {
           float: left;
+          &.underline {
+            &:after {
+              content: '';
+              width: 0;
+              height: 1px;
+              display: block;
+              background-color: $blue;
+              transition: width 200ms ease-in-out;
+              margin-top: 0.25rem;
+            }
+
+            &:hover {
+              &:after {
+                width: 100%;
+              }
+            }
+          }
 
           a {
             text-decoration: none;
-            color: $black;
+            color: $blue;
           }
         }
 
@@ -40,6 +57,11 @@ header {
         img {
           width: 2rem;
           height: auto;
+          transition: transform 250ms ease-in-out;
+
+          &:hover {
+            transform: scale(1.15)
+          }
         }
       }
     }
