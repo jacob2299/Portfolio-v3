@@ -14,13 +14,10 @@
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-flatten": "^0.4.0",
-    "gulp-image": "^4.3.0",
-    "gulp-inject": "^4.3.2",
+    "gulp-rename": "^1.2.3",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.1",
     "http-server": "^0.11.1"
   },
-  "dependencies": {
-    "normalize.css": "^8.0.0"
-  }
+  "dependencies": {}
 }
